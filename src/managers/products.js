@@ -19,7 +19,7 @@ class ProductManager
     }
 
     async addProduct(newproduct) {
-        console.log('sssssssssss', newproduct)
+        
         const productos = await this.leerJSON();
     
         const nuevoId = productos.length > 0 ? productos[productos.length - 1].id + 1 : 1;

@@ -12,7 +12,7 @@ module.exports = (server) => {
 
         //Agregar producto
         socket.on("addProduct", async (product) => {
-            console.log('aaaaaaaaaaaa',product)
+            
             await addProduct([product])
             const products = await getAllProducts();
 
