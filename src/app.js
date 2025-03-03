@@ -22,7 +22,7 @@ app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("realTimeProducts");
 });
 
 app.use("/", routes);
