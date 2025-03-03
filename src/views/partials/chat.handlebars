@@ -1,0 +1,35 @@
+{{!-- <div class="chatContainer">
+  <header>
+    <h3 class="userName"></h3>
+    <p class="typing"></p>
+  </header>
+  <main>
+    <div class="chatMessage"></div>
+  </main>
+  <footer>
+    <input type="text" placeholder="Message" id="inputMessage"/>
+    <button id="btnMessage">Enviar</button>
+  </footer>
+</div> --}}
+
+<h1>Lista de Productos</h1>
+
+<!-- Formulario para agregar productos -->
+<form id="productForm">
+    <input type="text" id="title" placeholder="Nombre" required />
+    <input type="number" id="price" placeholder="Precio" required />
+    <button type="submit">Agregar Producto</button>
+</form>
+
+<!-- Lista de productos -->
+<ul id="productList">
+    {{#each products}}
+    <li>
+        <strong>{{this.title}}</strong> - ${{this.price}}
+        <button onclick="deleteProduct('{{this.id}}')">Eliminar</button>
+    </li>
+    {{/each}}
+</ul>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/products.js"></script>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Termo",
+    "description": "1 Litro, Acero",
+    "code": "A1",
+    "price": 10000,
+    "status": true,
+    "stock": 30,
+    "thumbnails": "/img/products/termo.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Mate",
+    "description": "Acero sin bombilla",
+    "code": "A2",
+    "price": 5,
+    "status": true,
+    "stock": 30,
+    "thumbnails": "/img/products/mate.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mesa",
+    "description": "1.50Mtrs x 0.90Mtrs",
+    "code": "A3",
+    "price": 310000,
+    "status": true,
+    "stock": 5,
+    "thumbnails": "/img/products/mesa.jpg"
+  },
+  {
+    "id": 4,
+    "title": "silla",
+    "description": "madera con detalles",
+    "code": "D3",
+    "price": 40000,
+    "status": false,
+    "stock": 6,
+    "thumbnails": "/img/silla1.png"
+  }
+]
