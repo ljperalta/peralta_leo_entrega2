@@ -35,7 +35,17 @@
     "description": "madera con detalles",
     "code": "D3",
     "price": 40000,
-    "status": false,
+    "status": true,
+    "stock": 6,
+    "thumbnails": "/img/silla1.png"
+  },
+  {
+    "id": 5,
+    "title": "silla",
+    "description": "madera con detalles",
+    "code": "D3",
+    "price": 40000,
+    "status": true,
     "stock": 6,
     "thumbnails": "/img/silla1.png"
   }
